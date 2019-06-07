@@ -5,7 +5,7 @@
 ## a 400.
 ##
 
-select K0, avg(c21) from tbl1 
-left join tbl2 ON tbl1.k1 = tbl2.k1
-where c13 > '400'
+SELECT K0, avg(c21)FROM tbl1 
+LEFT JOIN tbl2 ON tbl1.k1 = tbl2.k1
+WHERE c13 > '400'
 GROUP BY K0
